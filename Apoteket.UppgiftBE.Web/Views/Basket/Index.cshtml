@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Apoteket.UppgiftBE.Web.Models.Product>
+@{ ViewBag.Title = "eFrukt - Varukorg"; }
+
+<div class="row">
+    <div class="col-sm-12">
+        <h2>@ViewBag.Title</h2>
+    </div>
+</div>
+<table class="table">
+    <tr>
+        <th>
+            Namn
+        </th>
+        <th>
+            Pris
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Price)
+    </td>
+    <td>
+        <a class="btn btn-danger" href="@Url.Action("Remove", "Basket", new {id= item.Id}, Request.Url.Scheme)">Ta bort</a>
+    </td>
+</tr>}
+    <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+            <a class="btn btn-primary" href="@Url.Action("Checkout", "Basket")">Lägg order</a>
+        </td>
+    </tr>
+</table>

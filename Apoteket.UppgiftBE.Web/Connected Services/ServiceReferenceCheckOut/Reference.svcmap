@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="17662cdf-528c-4283-8020-a82b3f5e3ef6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://apoteket-be.azurewebsites.net/service/OrderService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OrderService.xsd" MetadataType="Schema" ID="a36c3bab-018c-458e-b10c-c129c0f76182" SourceId="1" SourceUrl="https://apoteket-be.azurewebsites.net/service/OrderService.svc?xsd=xsd3" />
+    <MetadataFile FileName="OrderService1.xsd" MetadataType="Schema" ID="c57ad878-88a0-4d41-b49d-a6d7e1b0f6e9" SourceId="1" SourceUrl="https://apoteket-be.azurewebsites.net/service/OrderService.svc?xsd=xsd2" />
+    <MetadataFile FileName="OrderService.wsdl" MetadataType="Wsdl" ID="6a9585cf-2c4a-4231-b9b6-232facbe3648" SourceId="1" SourceUrl="https://apoteket-be.azurewebsites.net/service/OrderService.svc?wsdl" />
+    <MetadataFile FileName="OrderService2.xsd" MetadataType="Schema" ID="8597928b-791f-4bd2-a831-e094022902b8" SourceId="1" SourceUrl="https://apoteket-be.azurewebsites.net/service/OrderService.svc?xsd=xsd1" />
+    <MetadataFile FileName="OrderService3.xsd" MetadataType="Schema" ID="84f19c79-de6a-4ba8-8ded-20812bd556de" SourceId="1" SourceUrl="https://apoteket-be.azurewebsites.net/service/OrderService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
